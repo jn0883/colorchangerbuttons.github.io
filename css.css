@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: grey;
+    
+}
+
+.text{
+    top: 18rem;
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 150;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+button{
+    position: inherit;
+    top: 20rem;
+    margin: 1rem 1rem;
+    box-shadow: 0 0 0.235rem 0.25rem black;
+}
+button:hover{
+    height: 3rem;
+    width: 4.5rem;
+}
+.btn{
+    height: 2.5rem;
+    width: 4rem;
+}
+
+@media (max-width: 600px){
+    body{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text{
+        top: 10rem;
+    }
+    button{
+        top: 23rem;
+        margin: 1.5rem 1rem;
+        left: 9.5rem;
+        border-radius: 10px;
+    }
+    .text{
+        top: 4rem;
+        padding: 2rem;
+        font-size: 2.5rem;
+        font-weight: 600;  
+    } 
+}
